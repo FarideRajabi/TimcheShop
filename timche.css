@@ -1,0 +1,99 @@
+header{
+background:url('C:/Users/novin/Desktop/timche/images (2).jpg') 0 0 / cover no-repeat;
+color:red;
+width:950px;
+height:60px;
+padding-right:380px;
+
+}
+header p{
+	font:30px lalezar;
+	margin:10px;
+	float:right;
+	
+}
+h1{
+	color:royalblue;
+	font-family: monospace;
+	margin:20px;
+}
+.header>h1,form,i{
+	float:right;
+	margin:10px 50px;
+	
+}
+.title i{
+	float:right;
+	margin:10px 25px;
+	
+}
+section{
+	clear:both;
+}
+.off{
+	background-color:yellow;
+	box-shadow:-10px 10px 0px 0px #DCDCDC; 
+	width:150px;
+	height:20px;
+}
+ .sale{
+	border-radius:1em;
+	float:right;
+}
+.sale1{
+	background:url(C:/Users/novin/Desktop/timche/images.jpg) 0 /cover no-repeat;
+	float:right;
+	width:500px;
+	height:200px;
+	padding:20px;
+}
+
+.instalment{
+	text-align:center;
+	margin:20px;
+	 font-family:lalezar;
+	 
+}
+.instalment>img{
+	background-color:gainsboro;
+	float:right;
+}
+.text1{
+	width:100px;
+	height:80px;
+	background-color:navy;
+	color:white;
+	font-size:30px;
+	text-align:center;
+	padding-top:15px
+}
+.text2{
+	width:100px;
+	height:80px;
+	background-color:limegreen;
+	color:white;
+	font-size:25px;
+	text-align:center;
+	padding-top:15px;
+}
+.crop{
+	
+	margin:20px;
+	float:right;
+	width:200px;
+	height:240px;
+	font:15px b-nazanin;
+	text-align:center;
+}
+h2, h3, div{
+	
+	clear:both;
+	margin-right:15px;
+}
+.priceoof{
+text-decoration:line-through;	
+font-size:10px;
+}
+.percent{
+	background-color:yellow;
+}
