@@ -12,51 +12,93 @@ header p{
 	float:right;
 	
 }
-h1{
-	color:royalblue;
-	font-family: monospace;
-	margin:20px;
+.fa-check,h1{
+	font-family:lalezar;
+	color: blue;
+	float: right;
+	width: 50px;
+
+	margin:10px 50px 10px 0px;
 }
-.header>h1,form,i{
+h1{
+	margin:10px 0px 10px 50px;
+}
+
+.header>form,i{
 	float:right;
-	margin:10px 50px;
+	margin:10px 40px;
 	
 }
+.instalment{
+	border-radius: 5px;
+	background-color:grey;
+	padding:10px ;
+	width:60px ;
+	height:60px ;
+}
+
 .title i{
 	float:right;
 	margin:10px 25px;
 	
 }
+
 section{
 	clear:both;
 }
+
 .off{
 	background-color:yellow;
 	box-shadow:-10px 10px 0px 0px #DCDCDC; 
 	width:150px;
 	height:20px;
 }
- .sale{
-	border-radius:1em;
+ .sale2{
+	border-radius:0em 0em 7em 0em;
 	float:right;
+
 }
 .sale1{
 	background:url(C:/Users/novin/Desktop/timche/images.jpg) 0 /cover no-repeat;
 	float:right;
 	width:500px;
 	height:200px;
-	padding:20px;
+	padding:30px;
+
+}
+.sale3 {
+	border-radius: 7em 0em 0em 0em;
+
+}
+i>div{
+	float:right;
+	margin-left: 90px;
+}
+i>div>p{
+	color: red;
+	font-size: 30px;
+}
+i>div>span{
+	background-color: yellow;
+	border-radius:15px 0px;
+	font-size: 20px;
+	padding: 10px;
+}
+.back{
+	background:url(C:/Users/novin/Desktop/timche/back.jpg) 0 /cover no-repeat;
+}
+.back1{
+	background-color: white;
+	border-radius: 10px;
+	padding:20px ;
 }
 
 .instalment{
 	text-align:center;
 	margin:20px;
-	 font-family:lalezar;
-	 
 }
-.instalment>img{
-	background-color:gainsboro;
-	float:right;
+i>img{
+	margin-bottom:20px ;
 }
 .text1{
 	width:100px;
@@ -76,24 +118,55 @@ section{
 	text-align:center;
 	padding-top:15px;
 }
+
 .crop{
 	
-	margin:20px;
+	margin-right:20px;
 	float:right;
 	width:200px;
 	height:240px;
 	font:15px b-nazanin;
-	text-align:center;
+
 }
-h2, h3, div{
-	
-	clear:both;
+
+section>div{
+    float:right ;
+	padding:5px;
+	text-align: center;
+}
+h2, div{
+	clear: right;
 	margin-right:15px;
+	float: right;
+}
+h3 {
+	margin-right: 800px;
+
 }
 .priceoof{
-text-decoration:line-through;	
-font-size:10px;
+	text-decoration:line-through;
+	font-size:10px;
+	margin-right:120px ;
+	color: dimgrey;
+
 }
 .percent{
 	background-color:yellow;
+	float: left;
+
+}
+i>span{
+	text-align: right;
+	margin: 5px;
+
+}
+span+p{
+	text-align: left;
+}
+.name{
+	height:50px;
+}
+.bord{
+	border-bottom:1px solid lightsteelblue;
+	height:330px;
 }
