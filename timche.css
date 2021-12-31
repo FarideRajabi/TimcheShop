@@ -1,6 +1,10 @@
+@font-face {
+	font-family:"B Roya","A.Afsaneh.Font";
+	src: url(fonts/font.woff) format('woff');
+}
 
 header{
-background:url('C:/Users/novin/Desktop/timche/images (2).jpg') 0 0 / cover no-repeat;
+background:url('D:/js/TimcheShop/timche/images (2).jpg') 0 0 / cover no-repeat;
 color:red;
 width:950px;
 height:60px;
@@ -8,27 +12,57 @@ padding-right:380px;
 
 }
 header p{
-	font:30px lalezar;
+	font-size:30px;
 	margin:10px;
 	float:right;
 	
 }
+
 .fa-check,h1{
-	font-family:lalezar;
 	color: blue;
 	float: right;
-	width: 50px;
+	font-family: "A.Afsaneh.Font";
+	font-size: 40px;
+}
+.header{
+	margin:10px 40px;
 
-	margin:10px 50px 10px 0px;
+}
+.fa-check {
+	margin:0 30px 0 4px;
+	font-size: 50px!important;
+	font-style: oblique!important;
+	fo
 }
 h1{
 	margin:10px 0px 10px 50px;
+	vertical-align: top;
+
 }
 
 .header>form,i{
 	float:right;
-	margin:10px 40px;
-	
+	margin:10px 10px;
+
+}
+.sever {
+	font-size: 20px;
+	padding: 10px;
+	border-left: 1px solid #ddd;
+}
+.fa-shopping-cart{
+	margin-top:30px ;
+}
+.search-input{
+	padding: 12px 3px 12px 160px;
+	background: #eee;
+	border: 1px solid #ddd;
+}
+.search-button{
+	padding: 12px 15px;
+	background: #09f;
+	border: 1px solid #09f ;
+	color: #eee;
 }
 .instalment{
 	border-radius: 5px;
@@ -37,30 +71,54 @@ h1{
 	width:60px ;
 	height:60px ;
 }
-
+.title{
+	text-align: center;
+	border-bottom:1px solid lightsteelblue;
+	height: 40px;
+	padding-right: 5%;
+}
 .title i{
 	float:right;
-	margin:10px 25px;
-	
+	margin:10px 15px;
+	font-style: normal;
+
 }
 
+.cut-rate{
+	font-size:40px;
+	font-weight: 900;
+	color: #ffd700;
+}
 section{
 	clear:both;
 }
 
+.fire{
+	float: right;
+	margin-left:15px;
+}
+.offer{
+	margin: 10px 100px 0 0 ;
+	padding:0.5px;
+}
 .off{
 	background-color:yellow;
-	box-shadow:-10px 10px 0px 0px #DCDCDC; 
-	width:150px;
-	height:20px;
+	box-shadow:-10px 10px 0px 0px #DCDCDC;
+	width:230px;
+	height: 12px;
+	font-size: 30px;
+	font-weight: 900;
+	margin-right:50px ;
 }
+
  .sale2{
 	border-radius:0em 0em 7em 0em;
 	float:right;
+	 margin-right: 5%;
 
 }
 .sale1{
-	background:url(C:/Users/novin/Desktop/timche/images.jpg) 0 /cover no-repeat;
+	background:url(D:/js/TimcheShop/timche/images.jpg) 0 /cover no-repeat;
 	float:right;
 	width:500px;
 	height:200px;
@@ -77,7 +135,9 @@ i>div{
 }
 i>div>p{
 	color: red;
-	font-size: 30px;
+	font-size:30px;
+	font-weight: 900;
+	line-height: 20px;
 }
 i>div>span{
 	background-color: yellow;
@@ -86,7 +146,8 @@ i>div>span{
 	padding: 10px;
 }
 .back{
-	background:url(C:/Users/novin/Desktop/timche/back.jpg) 0 /cover no-repeat;
+	background:url(D:/js/TimcheShop/timche/back.jpg) 0 /cover repeat border-box;
+	height: 380px;
 }
 .back1{
 	background-color: white;
@@ -121,13 +182,13 @@ i>img{
 }
 
 .crop{
-	
-	margin-right:20px;
+	text-align: justify;
+	margin-right:35px;
+	padding: 16px;
 	float:right;
 	width:200px;
-	height:240px;
-	font:15px b-nazanin;
-
+	height:340px;
+	font: normal bold 15px/30px B Roya, serif;
 }
 
 section>div{
@@ -139,22 +200,36 @@ h2, div{
 	clear: right;
 	margin-right:15px;
 	float: right;
+	font-family: "B Roya";
 }
 h3 {
-	margin-right: 800px;
 
+	margin-right:660px;
+}
+.bord{
+	border-bottom:1px solid lightsteelblue;
+	height:410px;
+	text-align: justify;
+}
+h2,h3,.bord{
+	padding: 0 8%;
 }
 .priceoof{
 	text-decoration:line-through;
-	font-size:10px;
-	margin-right:120px ;
+	font-size:20px;
+	margin-right:60px ;
 	color: dimgrey;
 
 }
 .percent{
 	background-color:yellow;
 	float: left;
-
+	font-size:22px;
+}
+span+p, i>p+p, .topic{
+	margin-right: 70px;
+	font-size:22px ;
+	color: #000;
 }
 i>span{
 	text-align: right;
@@ -165,12 +240,11 @@ span+p{
 	text-align: left;
 }
 .name{
-	height:50px;
+	height:100px;
+	text-align: justify;
+
 }
-.bord{
-	border-bottom:1px solid lightsteelblue;
-	height:330px;
-}
+
 footer {
 	text-align: right;
 	direction: rtl;
@@ -211,10 +285,8 @@ footer p{
 	margin:30px 30px 0 15px;
 }
 
-.fourth h3{
-	margin:0 70px 0 1000px ;
-}
-.fourth p{
+
+.fourth p+p{
 	margin:10px 70px;
 	color: grey;
 }
