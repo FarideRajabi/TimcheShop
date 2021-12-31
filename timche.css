@@ -4,7 +4,7 @@
 }
 
 header{
-background:url('D:/js/TimcheShop/timche/images (2).jpg') 0 0 / cover no-repeat;
+background:url('image/images (2).jpg') 0 0 / cover no-repeat;
 color:red;
 width:950px;
 height:60px;
@@ -118,7 +118,7 @@ section{
 
 }
 .sale1{
-	background:url(D:/js/TimcheShop/timche/images.jpg) 0 /cover no-repeat;
+	background:url(image/images.jpg) 0 /cover no-repeat;
 	float:right;
 	width:500px;
 	height:200px;
@@ -146,7 +146,7 @@ i>div>span{
 	padding: 10px;
 }
 .back{
-	background:url(D:/js/TimcheShop/timche/back.jpg) 0 /cover repeat border-box;
+	background:url(image/back.jpg) 0 /cover repeat border-box;
 	height: 380px;
 }
 .back1{
@@ -291,6 +291,7 @@ footer p{
 	color: grey;
 }
 .final{
+	clear:both;
 	text-align:center ;
 	margin: 30px 300px;
 }
