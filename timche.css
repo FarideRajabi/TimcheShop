@@ -1,43 +1,119 @@
 @font-face {
-	font-family:"B Roya","A.Afsaneh.Font";
+	font-family:"B Roya","A.Afsaneh.Font","dana-regular","B Kamran","Far.Khodkar";
 	src: url(fonts/font.woff) format('woff');
 }
 
 header{
 background:url('image/images (2).jpg') 0 0 / cover no-repeat;
-color:red;
+color:blue;
 width:950px;
 height:60px;
 padding-right:380px;
 
 }
 header p{
-	font-size:30px;
+	font-family: B Roya, serif;
+	font-size:20px;
 	margin:10px;
 	float:right;
-	
+	font-weight: 900;
+}
+.wag1{
+	font-size: 35px;
+	margin: 0px !important;
+	text-shadow: 1px 1px 4px #000;
+	-webkit-animation:text 1s 0s infinite reverse backwards running ;
+	animation:text 1s 0s infinite reverse backwards running ;
 }
 
+@-webkit-keyframes text{
+	0%{
+		color: yellow;
+	}
+	50%{
+		color: yellow;
+	}
+	100%{
+		color:#00008b;
+	}
+}
+
+@keyframes text{
+	0% {
+		color: yellow;
+	}
+	50%{
+		color: yellow;
+	}
+	100%{
+		color:#00008b;
+	}
+}
+
+
+.wag2{
+	background-color:#0000cd;
+	border-radius: 1em 0;
+	font-size:18px;
+	padding: 5px 10px;
+	color: yellow;
+	-webkit-animation: big 1s linear 1s infinite alternate-reverse backwards running ;
+	animation: big 1s linear 1s infinite alternate-reverse backwards running ;
+}
+@-webkit-keyframes big {
+	0%{
+		transform: scale(1);
+	}
+	25% {
+		transform: scale(1.2);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+@keyframes big {
+	0%{
+		transform: scale(1);
+	}
+	25% {
+		transform: scale(1.2);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.fa-arrow-left{
+	float: left;
+	background:yellow ;
+	color: #fff;
+	border-radius: 1em 0;
+	padding:6px 18px;
+	font-size:15px!important;
+	margin: 1px 10px 1px 1px;
+}
 .fa-check,h1{
 	color: blue;
 	float: right;
-	font-family: "A.Afsaneh.Font";
+	font-family: dana-regular;
 	font-size: 40px;
 }
 .header{
 	margin:10px 40px;
 
 }
+
+
 .fa-check {
 	margin:0 30px 0 4px;
 	font-size: 50px!important;
 	font-style: oblique!important;
-	fo
 }
 h1{
 	margin:10px 0px 10px 50px;
 	vertical-align: top;
-
 }
 
 .header>form,i{
@@ -112,38 +188,60 @@ section{
 }
 
  .sale2{
-	border-radius:0em 0em 7em 0em;
+	border-radius:0em 0em 5em 0em;
 	float:right;
-	 margin-right: 5%;
+	 margin-right: 6%;
 
 }
 .sale1{
 	background:url(image/images.jpg) 0 /cover no-repeat;
 	float:right;
-	width:500px;
+	width:470px;
 	height:200px;
-	padding:30px;
-
+	padding:18px 35px 0px 50px;
+	font-style: normal;
 }
 .sale3 {
-	border-radius: 7em 0em 0em 0em;
+	border-radius: 5em 0em 0em 0em;
 
 }
 i>div{
 	float:right;
-	margin-left: 90px;
+	margin:2px 2px 10px 10px;
 }
-i>div>p{
+.publicity1{
+	font-family: "B Roya";
+}
+.publicity2{
+	 text-shadow :-2px 2px 1px #f08080;
+}
+.publicity1, .publicity3{
 	color: red;
-	font-size:30px;
+	font-size:40px;
 	font-weight: 900;
-	line-height: 20px;
+	line-height: 2px;
 }
-i>div>span{
+.publicity3{
+	font-weight: 500!important;
+	font-size:30px;
+}
+.publicity4{
 	background-color: yellow;
-	border-radius:15px 0px;
-	font-size: 20px;
-	padding: 10px;
+	border-radius:1em 0em;
+	font-size: 22px;
+	font-weight: 900;
+	text-align: center;
+	padding: 5px 18px;
+}
+.sale1>img, .fa-angle-double-left{
+	float: left;
+}
+.fa-angle-double-left{
+	margin:6px 0px;
+}
+.marg1{
+	margin-top:70px;
+	width:120px;
 }
 .back{
 	background:url(image/back.jpg) 0 /cover repeat border-box;
@@ -158,6 +256,8 @@ i>div>span{
 .instalment{
 	text-align:center;
 	margin:20px;
+	font-style: normal;
+	font-family:B B Roya , "B Roya";
 }
 i>img{
 	margin-bottom:20px ;
@@ -167,10 +267,11 @@ i>img{
 	height:80px;
 	background-color:navy;
 	color:white;
-	font-size:30px;
+	font-size:25px;
 	text-align:center;
-	padding-top:15px
+
 }
+
 .text2{
 	width:100px;
 	height:80px;
@@ -180,6 +281,83 @@ i>img{
 	text-align:center;
 	padding-top:15px;
 }
+.text1-1 , .text2-1{
+	margin: 0px auto;
+}
+.fa-angle-right{
+	color: limegreen;
+}
+.fa-angle-left{
+	color:navy;
+}
+
+.fa-angle-left , .fa-angle-right{
+	margin: 10px;
+	position: relative;
+	font-size: 40px!important;
+	font-weight: 900!important;
+}
+.fa-angle-right {
+	-webkit-animation: move 2s 0s infinite alternate-reverse both running;
+	animation: move 2s 0s infinite alternate-reverse both running;
+}
+@-webkit-keyframes move {
+	0% {
+		right: -5px;
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	100% {
+		right: 70px;
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+
+	}
+}
+
+@keyframes move {
+	0% {
+		right: -5px;
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	100%{
+		right: 70px;
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+}
+.fa-angle-left{
+	-webkit-animation: wave 2s 0s infinite alternate-reverse both running ;
+	animation: wave 2s 0s infinite alternate-reverse both running ;
+}
+@-webkit-keyframes wave {
+	0% {
+		right: 70px;
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	100% {
+		right: -5px;
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+
+	}
+}
+
+@keyframes wave {
+	0% {
+		right: 70px;
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	100%{
+		right: -5px;
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+}
+
 
 .crop{
 	text-align: justify;
