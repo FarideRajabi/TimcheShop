@@ -147,6 +147,10 @@ h1{
 	width:60px ;
 	height:60px ;
 }
+#timer{
+	font-size: larger;
+	font-family:B Roya;
+}
 .title{
 	text-align: center;
 	border-bottom:1px solid lightsteelblue;
@@ -164,6 +168,10 @@ h1{
 	font-size:40px;
 	font-weight: 900;
 	color: #ffd700;
+}
+.cut{
+	text-align: center;
+
 }
 section{
 	clear:both;
@@ -422,7 +430,14 @@ span+p{
 	text-align: justify;
 
 }
-
+#timer{
+	color: #fff;
+	font-size: 30px;
+}
+.back>div>img{
+	width: 150px;
+	height: 200px;
+}
 footer {
 	text-align: right;
 	direction: rtl;
