@@ -2,25 +2,26 @@
 	font-family:"B Roya","A.Afsaneh.Font","dana-regular","B Kamran","Far.Khodkar";
 	src: url(fonts/font.woff) format('woff');
 }
-
+html{
+	overflow-x: hidden;
+}
+header , .header, form, .title, .sale , .sale1, .title1, .publicity4, .bord, .bord1 , #details1, #details2, #details3, #details4, #details5, #details6, #details7, #details8, #details9 {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
 header{
 background:url('image/images (2).jpg') 0 0 / cover no-repeat;
-color:blue;
-width:950px;
-height:60px;
-padding-right:380px;
-
+	color:blue;
+	margin-bottom:0;
 }
 header p{
 	font-family: B Roya, serif;
-	font-size:20px;
-	margin:10px;
-	float:right;
-	font-weight: 900;
+	margin: auto 1vw;
+	font-size:2vw;
 }
 .wag1{
-	font-size: 35px;
-	margin: 0px !important;
+	font-size:3vw;
 	text-shadow: 1px 1px 4px #000;
 	-webkit-animation:text 1s 0s infinite reverse backwards running ;
 	animation:text 1s 0s infinite reverse backwards running ;
@@ -54,9 +55,10 @@ header p{
 .wag2{
 	background-color:#0000cd;
 	border-radius: 1em 0;
-	font-size:18px;
-	padding: 5px 10px;
+	padding: 0.3vw 1vw;
 	color: yellow;
+	font-size:1.5vw;
+	font-weight:900 ;
 	-webkit-animation: big 1s linear 1s infinite alternate-reverse backwards running ;
 	animation: big 1s linear 1s infinite alternate-reverse backwards running ;
 }
@@ -90,91 +92,159 @@ header p{
 	background:yellow ;
 	color: #fff;
 	border-radius: 1em 0;
-	padding:6px 18px;
-	font-size:15px!important;
-	margin: 1px 10px 1px 1px;
+	padding:0.6vw 1.8vw;
+	font-size:1.5vw!important;
+	margin: 0.4vw 1vw 0.1vw 0.1vw;
 }
 .fa-check,h1{
 	color: blue;
-	float: right;
 	font-family: dana-regular;
-	font-size: 40px;
+	font-size: 4vw!important;
 }
 .header{
-	margin:10px 40px;
-
+	align-items: baseline;
+	flex-wrap: wrap;
 }
-
 
 .fa-check {
-	margin:0 30px 0 4px;
-	font-size: 50px!important;
+	margin-left:0.3vw;
 	font-style: oblique!important;
+
 }
 h1{
-	margin:10px 0px 10px 50px;
-	vertical-align: top;
+	margin-left: 4vw;
 }
 
 .header>form,i{
-	float:right;
-	margin:10px 10px;
-
+	margin:1vw;
 }
 .sever {
-	font-size: 20px;
-	padding: 10px;
-	border-left: 1px solid #ddd;
+	font-size: 1.2vw;
+	padding-left: 0.5vw;
+	border-left: 0.1vw solid #ddd;
 }
-.fa-shopping-cart{
-	margin-top:30px ;
-}
+
 .search-input{
-	padding: 12px 3px 12px 160px;
+	padding: 1vw 0.3vw 0.1vw 14vw;
 	background: #eee;
 	border: 1px solid #ddd;
 }
 .search-button{
-	padding: 12px 15px;
+
+	padding: 1vw 1.2vw;
 	background: #09f;
 	border: 1px solid #09f ;
 	color: #eee;
 }
-.instalment{
-	border-radius: 5px;
-	background-color: #DCDCDC;
-	padding:10px ;
-	width:60px ;
-	height:60px ;
-}
-#timer{
-	font-size: larger;
-	font-family:B Roya;
-}
-.title{
+
+
+.title {
 	text-align: center;
-	border-bottom:1px solid lightsteelblue;
-	height: 40px;
-	padding-right: 5%;
+	border-bottom: 0.1vw solid lightsteelblue;
+	height: 4vw;
+	margin:0 7%;
+	word-wrap: anywhere;
 }
+
 .title i{
-	float:right;
-	margin:10px 15px;
+	margin-right:1vw;
 	font-style: normal;
+	font-size: 1.15vw;
+	flex-wrap: nowrap;
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+
+ .sale2{
+	border-radius:0em 0em 5em 0em;
+	 margin-right: 2vw;
+}
+.sale1{
+	background:url(image/images.jpg) 0 /cover no-repeat;
+	padding:4vw 1vw;
+	font-style: normal;
+	height: 16vw;
+}
+.sale1 img{
+	width:15vw;
+	height:15vw;
+
+}
+.sale3 {
+	border-radius: 5em 0em 0em 0em;
+}
+.sale2, .sale3{
+	padding: 2vw;
+}
+i>div{
+
+}
+.publicity1{
+	font-family: "B Roya";
+	font-size:4vw;
+}
+.publicity2{
+	 text-shadow :-2px 2px 1px #f08080;
+}
+.publicity1, .publicity3{
+	color: red;
+	font-weight: 900;
+	line-height:0.4vw;
+	margin-left:1vw ;
+	width: 100%;
+}
+.publicity3{
+	font-weight: 500!important;
+	font-size:2.5vw;
+}
+.publicity4{
+	background-color: yellow;
+	border-radius:1em 0em;
+	font-size:1.5vw;
+	font-weight: 900;
+	text-align: center;
+	width: 13vw;
+	display: flex;
+	align-items: baseline;
+	margin-right: 2vw;
+}
+
+.fa-angle-double-left{
 
 }
 
+.marg1{
+	margin-top: 6vw;
+}
+.sale3 img{
+	margin:2vw 0 0!important;
+}
+.title1{
+	overflow-x:scroll;
+	font-size: 1vw;
+    justify-content: stretch;
+	margin: auto 6%;
+}
 .cut-rate{
-	font-size:40px;
+	font-size:3vw;
 	font-weight: 900;
 	color: #ffd700;
 }
 .cut{
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
 	text-align: center;
+	height: 18vw!important;
+	padding:3vw 4vw 3vw 0;
+	line-height: 0;
+	margin-right: 0!important;
 
 }
-section{
-	clear:both;
+#timer{
+	font-size: 3vw;
+	font-family:B Roya;
 }
 
 .fire{
@@ -183,114 +253,80 @@ section{
 }
 .offer{
 	margin: 10px 100px 0 0 ;
-	padding:0.5px;
+	padding:0.5vw;
 }
 .off{
 	background-color:yellow;
 	box-shadow:-10px 10px 0px 0px #DCDCDC;
 	width:230px;
 	height: 12px;
-	font-size: 30px;
+	font-size: 3vw;
 	font-weight: 900;
 	margin-right:50px ;
 }
 
- .sale2{
-	border-radius:0em 0em 5em 0em;
-	float:right;
-	 margin-right: 6%;
+.instalment img{
+	border-radius: 1em;
+	background-color: #DCDCDC;
+	padding:10px ;
+	width:6vw ;
+	height:6vw ;
 
 }
-.sale1{
-	background:url(image/images.jpg) 0 /cover no-repeat;
-	float:right;
-	width:470px;
-	height:200px;
-	padding:18px 35px 0px 50px;
-	font-style: normal;
-}
-.sale3 {
-	border-radius: 5em 0em 0em 0em;
 
-}
-i>div{
-	float:right;
-	margin:2px 2px 10px 10px;
-}
-.publicity1{
-	font-family: "B Roya";
-}
-.publicity2{
-	 text-shadow :-2px 2px 1px #f08080;
-}
-.publicity1, .publicity3{
-	color: red;
-	font-size:40px;
-	font-weight: 900;
-	line-height: 2px;
-}
-.publicity3{
-	font-weight: 500!important;
-	font-size:30px;
-}
-.publicity4{
-	background-color: yellow;
-	border-radius:1em 0em;
-	font-size: 22px;
-	font-weight: 900;
-	text-align: center;
-	padding: 5px 18px;
-}
-.sale1>img, .fa-angle-double-left{
-	float: left;
-}
-.fa-angle-double-left{
-	margin:6px 0px;
-}
-.marg1{
-	margin-top:70px;
-	width:120px;
-}
 .back{
 	background:url(image/back.jpg) 0 /cover repeat border-box;
-	height: 380px;
+	height: 31vw!important;
+}
+.back>div>img{
+	width: 15vw;
+	height: 17vw;
+	margin: 0;
 }
 .back1{
 	background-color: white;
-	border-radius: 10px;
-	padding:20px ;
-}
+	border-radius: 1em;
+	padding:1vw ;
+	margin: 1vw;
+	text-align: justify;
+	width:14vw;
+	height:27vw;
+	font: normal bold 1.2vw/2vw B Roya, serif;
 
+}
+.back1 img, .bord img{
+	margin-right:2vw;
+}
 .instalment{
 	text-align:center;
-	margin:20px;
+	margin:1vw;
 	font-style: normal;
 	font-family:B B Roya , "B Roya";
+	display: flex;
+	flex-direction: column;
 }
-i>img{
-	margin-bottom:20px ;
-}
-.text1{
-	width:100px;
-	height:80px;
-	background-color:navy;
-	color:white;
-	font-size:25px;
-	text-align:center;
 
+.text1{
+	background-color:navy;
+	padding:0 1.8vw 1vw;
 }
 
 .text2{
-	width:100px;
-	height:80px;
 	background-color:limegreen;
+	padding:0 2.8vw 1vw;
+}
+.text1, .text2{
+	width:10vw!important;
+	height:8vw!important;
 	color:white;
-	font-size:25px;
+	font-size:2.2vw;
 	text-align:center;
-	padding-top:15px;
+	border-radius: 0.5em;
+
+
 }
 .text1-1 , .text2-1{
-	margin: 0px auto;
+	margin:0.3vw 0.4vw;
 }
 .fa-angle-right{
 	color: limegreen;
@@ -300,9 +336,9 @@ i>img{
 }
 
 .fa-angle-left , .fa-angle-right{
-	margin: 10px;
+	margin:0 0.3vw 0.3vw;
 	position: relative;
-	font-size: 40px!important;
+	font-size: 2.5vw!important;
 	font-weight: 900!important;
 }
 .fa-angle-right {
@@ -311,12 +347,12 @@ i>img{
 }
 @-webkit-keyframes move {
 	0% {
-		right: -5px;
+		right: -3.5vw;
 		-webkit-animation-timing-function: ease-out;
 		animation-timing-function: ease-out;
 	}
 	100% {
-		right: 70px;
+		right: 3.5vw;
 		-webkit-animation-timing-function: ease-out;
 		animation-timing-function: ease-out;
 
@@ -325,12 +361,12 @@ i>img{
 
 @keyframes move {
 	0% {
-		right: -5px;
+		right: -3.5vw;
 		-webkit-animation-timing-function: ease-out;
 		animation-timing-function: ease-out;
 	}
 	100%{
-		right: 70px;
+		right: 3.5vw;
 		-webkit-animation-timing-function: ease-out;
 		animation-timing-function: ease-out;
 	}
@@ -341,12 +377,12 @@ i>img{
 }
 @-webkit-keyframes wave {
 	0% {
-		right: 70px;
+		right: 3.5vw;
 		-webkit-animation-timing-function: ease-out;
 		animation-timing-function: ease-out;
 	}
 	100% {
-		right: -5px;
+		right: -3.5vw;
 		-webkit-animation-timing-function: ease-out;
 		animation-timing-function: ease-out;
 
@@ -355,12 +391,12 @@ i>img{
 
 @keyframes wave {
 	0% {
-		right: 70px;
+		right: 3.5vw;
 		-webkit-animation-timing-function: ease-out;
 		animation-timing-function: ease-out;
 	}
 	100%{
-		right: -5px;
+		right: -3.5vw;
 		-webkit-animation-timing-function: ease-out;
 		animation-timing-function: ease-out;
 	}
@@ -369,91 +405,98 @@ i>img{
 
 .crop{
 	text-align: justify;
-	margin-right:35px;
-	padding: 16px;
-	float:right;
-	width:200px;
-	height:340px;
-	font: normal bold 15px/30px B Roya, serif;
+	padding: 1.6vw;
+	width:15vw;
+	height:27vw;
+	font: normal bold 1.2vw/2vw B Roya, serif;
 }
 
 section>div{
-    float:right ;
-	padding:5px;
+
+	padding:0.5vw;
 	text-align: center;
 }
-h2, div{
-	clear: right;
-	margin-right:15px;
-	float: right;
+h2{
+	margin-top:6vw!important;
+	font-size: 2vw;
+}
+h2, .crop:first-child{
+	margin-right:10%;
 	font-family: "B Roya";
 }
 h3 {
+	background-color:yellow ;
+	float: left;
+	margin:7vw 0 0 5vw ;
+	font-size: 1.5vw;
 
-	margin-right:660px;
 }
 .bord{
 	border-bottom:1px solid lightsteelblue;
-	height:410px;
-	text-align: justify;
+	height:100%;
+	text-align:center;
+	justify-content: flex-start;
 }
-h2,h3,.bord{
-	padding: 0 8%;
+.bord img{
+	height: 10vw;
+	width: 10vw;
 }
+h2,h3{
+	display:inline-block;
+}
+
 .priceoof{
 	text-decoration:line-through;
-	font-size:20px;
-	margin-right:60px ;
+	font-size:1vw;
+	margin-right:6vw ;
 	color: dimgrey;
 
 }
 .percent{
 	background-color:yellow;
 	float: left;
-	font-size:22px;
+	font-size:1.2vw;
 }
 span+p, i>p+p, .topic{
-	margin-right: 70px;
-	font-size:22px ;
+	margin-right: 7vw;
+	font-size:1.2vw ;
 	color: #000;
 }
 i>span{
 	text-align: right;
-	margin: 5px;
+	margin: 0.5vw;
 
 }
 span+p{
 	text-align: left;
 }
 .name{
-	height:100px;
-	text-align: justify;
 
+	height:8vw;
+	text-align: justify;
 }
 #timer{
 	color: #fff;
-	font-size: 30px;
+	font-size: 2vw;
 }
-.back>div>img{
-	width: 150px;
-	height: 200px;
-}
+
 footer {
 	text-align: right;
 	direction: rtl;
-
 }
 ul{
 	float:right;
 	list-style-type: none;
-	margin-bottom:60px ;
-
+	margin-bottom:6vw ;
 }
  .first li, .thrid li {
-	margin:15px 40px;
+	margin:1.5vw 3vw;
 }
+ li{
+	 font-size: 1vw;
+ }
 li:first-child{
-	font-size: 20px;
+	font-size: 1.3vw;
 }
 footer>section{
 	clear: both;
@@ -461,30 +504,44 @@ footer>section{
 
 footer p{
 	float: right;
-	margin-left: 10px;
+	margin-left: 1vw;
 }
 .second{
 	background-color: #eeeeee;
-	height: 70px;
-	padding: 35px;
-	font-size:15px ;
+	height: 7vw;
+	padding: 3.5vw;
+	font-size:1.5vw ;
 }
 .second1{
-	margin-right:40px;
+	margin-right:4vw;
 }
 
 .thrid img{
 	float: right;
-	margin:30px 30px 0 15px;
+	margin:3vw 3vw 0 1.5vw;
 }
 
 
 .fourth p+p{
-	margin:10px 70px;
+	margin:1vw 7vw;
 	color: grey;
 }
 .final{
 	clear:both;
 	text-align:center ;
-	margin: 30px 300px;
+	margin: 3vw 30vw;
+}  #details1, #details2, #details3, #details4, #details5, #details6, #details7, #details8, #details9 {
+	background-color: #fff;
+	margin: auto;
+	z-index: 10;
 }
+
+   .detail{
+	   background-color:#fff ;
+	   width: 80%;
+	   align-self: stretch;
+	   box-sizing: border-box;
+	   position: absolute;
+	   margin-top: 5%;
+
+   }
