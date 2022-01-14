@@ -256,3 +256,11 @@ function details9(){
 function closeDetails9(){
   document.getElementById("details9").innerHTML = "طلا،مد و پوشاک";
 }
+
+var slider = document.getElementById("myRange");
+var output = document.getElementById("value1");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+    output.innerHTML = this.value;
+}

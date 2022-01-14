@@ -5,7 +5,7 @@
 html{
 	overflow-x: hidden;
 }
-header , .header, form, .title, .sale , .sale1, .title1, .publicity4, .bord, .bord1 , #details1, #details2, #details3, #details4, #details5, #details6, #details7, #details8, #details9 {
+header , .header, form, .title, .sale , .sale1, .title1, .publicity4, .bord, .bord1 , .first, .second, .thrid, #details1, #details2, #details3, #details4, #details5, #details6, #details7, #details8, #details9 {
 	display:flex;
 	flex-direction: row;
 	justify-content: center;
@@ -157,7 +157,7 @@ h1{
 
 
  .sale2{
-	border-radius:0em 0em 5em 0em;
+	border-radius:0em 0em 2em 0em;
 	 margin-right: 2vw;
 }
 .sale1{
@@ -172,14 +172,12 @@ h1{
 
 }
 .sale3 {
-	border-radius: 5em 0em 0em 0em;
+	border-radius: 2em 0em 0em 0em;
 }
 .sale2, .sale3{
 	padding: 2vw;
 }
-i>div{
 
-}
 .publicity1{
 	font-family: "B Roya";
 	font-size:4vw;
@@ -208,11 +206,9 @@ i>div{
 	display: flex;
 	align-items: baseline;
 	margin-right: 2vw;
+	flex-wrap: nowrap;
 }
 
-.fa-angle-double-left{
-
-}
 
 .marg1{
 	margin-top: 6vw;
@@ -249,20 +245,22 @@ i>div{
 
 .fire{
 	float: right;
-	margin-left:15px;
+	margin:1vw 1.5vw 0 0;
+	width: 3vw;
+	height:3vw;
 }
 .offer{
-	margin: 10px 100px 0 0 ;
+	margin: 1vw 10vw 0 0 ;
 	padding:0.5vw;
 }
 .off{
 	background-color:yellow;
-	box-shadow:-10px 10px 0px 0px #DCDCDC;
-	width:230px;
-	height: 12px;
-	font-size: 3vw;
+	box-shadow:-5px 5px 0px 0px #DCDCDC;
+	width:13vw;
+	height: 1.2vw;
+	font-size: 2vw;
 	font-weight: 900;
-	margin-right:50px ;
+	margin-right:5vw ;
 }
 
 .instalment img{
@@ -322,8 +320,6 @@ i>div{
 	font-size:2.2vw;
 	text-align:center;
 	border-radius: 0.5em;
-
-
 }
 .text1-1 , .text2-1{
 	margin:0.3vw 0.4vw;
@@ -424,13 +420,15 @@ h2, .crop:first-child{
 	margin-right:10%;
 	font-family: "B Roya";
 }
-h3 {
-	background-color:yellow ;
+ h3{
 	float: left;
 	margin:7vw 0 0 5vw ;
 	font-size: 1.5vw;
-
 }
+ a{
+	text-decoration: none;
+	 color:#101214;
+ }
 .bord{
 	border-bottom:1px solid lightsteelblue;
 	height:100%;
@@ -444,7 +442,9 @@ h3 {
 h2,h3{
 	display:inline-block;
 }
-
+.margin-off{
+	margin:4vw 0 40vw 5vw!important;
+}
 .priceoof{
 	text-decoration:line-through;
 	font-size:1vw;
@@ -484,27 +484,26 @@ footer {
 	text-align: right;
 	direction: rtl;
 }
-ul{
-	float:right;
+ footer ul{
 	list-style-type: none;
 	margin-bottom:6vw ;
 }
  .first li, .thrid li {
 	margin:1.5vw 3vw;
 }
- li{
+ footer li{
 	 font-size: 1vw;
  }
-li:first-child{
+footer li:first-child{
 	font-size: 1.3vw;
-}
-footer>section{
-	clear: both;
 }
 
 footer p{
-	float: right;
 	margin-left: 1vw;
+}
+footer img{
+	width: 3vw;
+	height: 3vw;
 }
 .second{
 	background-color: #eeeeee;
@@ -517,7 +516,6 @@ footer p{
 }
 
 .thrid img{
-	float: right;
 	margin:3vw 3vw 0 1.5vw;
 }
 
@@ -525,12 +523,14 @@ footer p{
 .fourth p+p{
 	margin:1vw 7vw;
 	color: grey;
+	font-size: 1vw;
 }
 .final{
-	clear:both;
 	text-align:center ;
 	margin: 3vw 30vw;
-}  #details1, #details2, #details3, #details4, #details5, #details6, #details7, #details8, #details9 {
+	font-size: 1.2vw;
+}
+#details1, #details2, #details3, #details4, #details5, #details6, #details7, #details8, #details9 {
 	background-color: #fff;
 	margin: auto;
 	z-index: 10;

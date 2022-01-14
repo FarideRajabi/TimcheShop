@@ -1,0 +1,303 @@
+@font-face {
+	font-family:"B Roya", "Vazir-Thin","A.Afsaneh.Font","dana-regular","B Kamran","Far.Khodkar";
+	src: url(fonts/font.woff) format('woff');
+}
+html{
+	overflow-x: hidden;
+
+}
+.header1 , .header2, form, .title1, .first, .second, .thrid, .final{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family:"B Roya";
+
+}
+.header2{
+	align-items: baseline;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.header1{
+background:url('image/images (2).jpg') 0 0 / cover no-repeat;
+	color:blue;
+	margin-bottom:0;
+	margin-top: 1vw;
+	padding: 0.5vw;
+}
+.header1 p{
+	font-family: B Roya, serif;
+	margin: auto 1vw;
+	font-size:2vw;
+}
+.wag1{
+	font-size:4vw;
+	text-shadow: 1px 1px 4px #000;
+	-webkit-animation:text 1s 0s infinite reverse backwards running ;
+	animation:text 1s 0s infinite reverse backwards running ;
+}
+
+@-webkit-keyframes text{
+	0%{
+		color: yellow;
+	}
+	50%{
+		color: yellow;
+	}
+	100%{
+		color:#00008b;
+	}
+}
+
+@keyframes text{
+	0% {
+		color: yellow;
+	}
+	50%{
+		color: yellow;
+	}
+	100%{
+		color:#00008b;
+	}
+}
+
+
+.wag2{
+	background-color:#0000cd;
+	border-radius: 1em 0;
+	padding: 0.5vw 1vw;
+	color: yellow;
+	font-size:1.5vw!important;
+	font-weight:900 ;
+	-webkit-animation: big 1s linear 1s infinite alternate-reverse backwards running ;
+	animation: big 1s linear 1s infinite alternate-reverse backwards running ;
+}
+@-webkit-keyframes big {
+	0%{
+		transform: scale(1);
+	}
+	25% {
+		transform: scale(1.2);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+@keyframes big {
+	0%{
+		transform: scale(1);
+	}
+	25% {
+		transform: scale(1.2);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.fa-arrow-left{
+	float: left;
+	background:yellow ;
+	color: #fff;
+	border-radius: 1em 0;
+	padding:0.6vw 1.8vw;
+	font-size:1vw!important;
+	margin: 0.4vw 1vw 0.1vw 0.1vw;
+}
+.fa-check, .timche{
+	color: blue;
+	font-family: dana-regular;
+	font-size: 4vw!important;
+}
+.header1{
+	align-items: baseline;
+	flex-wrap: wrap;
+	margin: 1vw;
+}
+
+.fa-check {
+	margin-left:0.3vw;
+	font-style: oblique!important;
+
+}
+.timche{
+	margin-left: 4vw;
+}
+aside{
+	font-family: "Vazir-Thin ";
+	font-size: 1vw;
+}
+.result li{
+	max-width: 20vw;
+}
+.header2>form,i{
+	margin:1vw;
+}
+.sever {
+	font-size: 1.2vw;
+	padding-left: 0.5vw;
+	border-left: 0.1vw solid #ddd;
+}
+
+.search-input{
+	padding: 0.6vw 0.3vw 0.1vw 14vw;
+	background: #eee;
+	border: 1px solid #ddd;
+}
+.search-button{
+
+	padding: 1vw 1.2vw;
+	background: #09f;
+	border: 1px solid #09f ;
+	color: #eee;
+}
+
+.topic{
+	font-size: 1.5vw;
+	font-weight: 500;
+	max-width: 15vw!important;
+}
+.form-control{
+	background-color: #e9ecef!important;
+}
+.title1 {
+	text-align: center;
+	height: 4vw;
+	margin:0 7%;
+	word-wrap: anywhere;
+	list-style-type: none;
+}
+
+.title1 i{
+	margin-right:1vw;
+	font-style: normal;
+	font-size: 1.15vw;
+	flex-wrap: nowrap;
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+.off{
+	width: 100%;
+	height: 10vw;
+}
+ul{
+width:60vw ;
+
+}
+li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0!important;
+	max-width:5vw!important;
+}
+aside li{
+	max-width: 20vw!important;
+}
+.all{
+	background-color:#e9ecef ;
+	max-width: 21vw!important;
+	padding: 0.5vw 7vw!important;
+}
+.show{
+	height: 4vw;
+	padding:1vw 0.1vw;
+	font-size: 0.8vw;
+	font-family: "Vazir-Thin ";
+}
+.show1{
+	font-size: 1.1vw;
+}
+.crop{
+	text-align: justify;
+	padding: 1.6vw;
+	width:15vw;
+	height:27vw;
+	font: normal bold 1.2vw/2vw B Roya, serif;
+	margin: 0.5vw;
+}
+
+.bord{
+	height:80%;
+	text-align:center;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.bord img{
+	height: 10vw;
+	width: 10vw;
+}
+.priceoof{
+	text-decoration:line-through;
+	font-size:1vw;
+	margin-right:6vw ;
+	color: dimgrey;
+
+}
+.percent{
+	background-color:yellow;
+	float: left;
+	font-size:1.2vw;
+}
+.name{
+
+	height:8vw;
+	text-align: justify;
+}
+footer {
+	text-align: right;
+	direction: rtl;
+	margin-top: 20vw;
+}
+footer ul{
+	list-style-type: none;
+	margin-bottom:6vw ;
+}
+.first li, .thrid li {
+	margin:1.5vw 3vw;
+	max-width: 100%!important;
+}
+footer li{
+	font-size: 1vw;
+}
+footer li:first-child{
+	font-size: 1.3vw;
+}
+
+footer p{
+	margin-left: 1vw;
+}
+footer img{
+	width: 3vw;
+	height: 3vw;
+}
+.second{
+	background-color: #eeeeee;
+	height: 7vw;
+	padding: 3.5vw;
+	font-size:1.5vw ;
+}
+.second1{
+	margin-right:4vw;
+}
+
+.thrid img{
+	margin:3vw 3vw 0 1.5vw;
+}
+
+
+.fourth p+p{
+	margin:1vw 7vw;
+	color: grey;
+	font-size: 1vw;
+}
+.final{
+	text-align:center ;
+	margin: 3vw 30vw;
+	font-size: 1.2vw;
+}
