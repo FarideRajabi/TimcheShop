@@ -130,7 +130,10 @@ background:url('image/images (2).jpg') 0 0 / cover no-repeat;
 aside{
 	font-family: "Vazir-Thin ";
 	font-size: 1vw;
+	
 }
+
+
 .result li{
 	max-width: 20vw;
 }
@@ -141,6 +144,7 @@ aside{
 	font-size: 1.2vw;
 	padding-left: 0.5vw;
 	border-left: 0.1vw solid #ddd;
+
 }
 
 .search-input{
